@@ -1,33 +1,33 @@
 {
   "basics": {
-    "name": "Zhenye (Nathan) Na",
-    "label": "Software Engineer",
-    "picture": "https://avatars.githubusercontent.com/u/32248549?v=4",
-    "website": "https://zhenye-na.github.io",
-    "summary": "I am currently a Software Development Engineer at Amazon Web Services (AWS), working on very exciting projects. Happy to refer!",
+    "name": "Melody Zhao",
+    "label": "AI Software Engineer",
+    "picture": "https://github.com/Melody-coder923/Melody-coder923.github.io/blob/main/images/avatar.jpg?raw=true",
+    "website": "https://melody-coder923.github.io/",
+    "summary": "Aspiring AI Engineer| Computer Software Engineering Graduate Student | 56 Countries Traveler | Always Curious & Learning | Open to 2026 Internship",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "San Jose",
+      "city": "Seattle",
       "countryCode": "",
-      "region": "CA"
+      "region": "Washington"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "zhenye-na",
-        "url": "http://github.com/zhenye-na"
+        "username": "Melody-coder923",
+        "url": "https://github.com/Melody-coder923"
       },
       {
         "network": "linkedin",
-        "username": "zhenyena",
-        "url": "https://www.linkedin.com/in/zhenyena/"
+        "username": "Melody Zhao",
+        "url": "https://www.linkedin.com/in/melody-zhao-092348239/"
       }
     ]
   },
   "interests": [
     {
-      "name": "Software Development",
+      "name": "AI Software Development",
       "keywords": [
       ]
     },
@@ -47,9 +47,11 @@
       "name": "Languages",
       "level": "",
       "keywords": [
+        "Python",
         "Java",
         "Typescript/Javascript",
-        "Python",
+        "Pytorch"
+        "JAX"
         "Golang",
         "Shell scripting",
         "HTML",
@@ -83,34 +85,9 @@
   ],
   "education": [
     {
-      "institution": "University of Illinois at Urbana - Champaign",
-      "area": "Master of Science, Industrial Engineering in Advanced Analytics",
-      "endDate": "May 2019"
+      "institution": "Northeastern University",
+      "area": "Computer Software Engineering",
+      "endDate": "May 2027"
     },
-    {
-      "institution": "Dalian University of Technology",
-      "area": "Bachelor of Engineering, Harbor, Waterway and Coastal Engineering",
-      "endDate": "July 2017"
-    }
   ],
-  "work": [
-    {
-      "company": "Amazon Web Services (AWS)",
-      "position": "Software Development Engineer",
-      "startDate": "July 2021",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": [
-      ]
-    },
-    {
-      "company": "CrowdCirlce Inc. dba HealthCrowd",
-      "position": "Data Engineer",
-      "startDate": "Mar. 2020",
-      "endDate": "Jun. 2021",
-      "summary": "",
-      "highlights": [
-      ]
-    }
-  ]
 }
