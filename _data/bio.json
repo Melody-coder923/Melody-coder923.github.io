@@ -4,7 +4,7 @@
     "label": "AI Software Engineer",
     "picture": "https://github.com/Melody-coder923/Melody-coder923.github.io/blob/main/images/avatar.jpg?raw=true",
     "website": "https://melody-coder923.github.io/",
-    "summary": "Aspiring AI Engineer| Computer Software Engineering Graduate Student | 56 Countries Traveler | Always Curious & Learning | Open to 2026 Internship",
+    "summary": "Aspiring AI Engineer | Computer Software Engineering Graduate Student | 56 Countries Traveler | Always Curious & Learning | Open to 2026 Internship",
     "location": {
       "address": "",
       "postalCode": "",
@@ -28,18 +28,15 @@
   "interests": [
     {
       "name": "AI Software Development",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Machine Learning",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Data Science",
-      "keywords": [
-      ]
+      "keywords": []
     }
   ],
   "skills": [
@@ -50,8 +47,8 @@
         "Python",
         "Java",
         "Typescript/Javascript",
-        "Pytorch"
-        "JAX"
+        "Pytorch",
+        "JAX",
         "Golang",
         "Shell scripting",
         "HTML",
@@ -60,7 +57,7 @@
     },
     {
       "name": "Frameworks",
-      "level":"",
+      "level": "",
       "keywords": [
         "Spring",
         "TensorFlow",
@@ -88,6 +85,6 @@
       "institution": "Northeastern University",
       "area": "Computer Software Engineering",
       "endDate": "May 2027"
-    },
-  ],
+    }
+  ]
 }
