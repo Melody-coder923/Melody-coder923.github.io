@@ -1,0 +1,55 @@
+/* Blog styles */
+.blog-index {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-preview {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.post-preview h2 {
+  margin-bottom: 10px;
+}
+
+.post-preview time {
+  color: #666;
+}
+
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-header {
+  margin-bottom: 30px;
+}
+
+.post-title {
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  color: #666;
+}
+
+.post-content {
+  line-height: 1.6;
+}
+
+.post-tags {
+  margin-top: 30px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 3px 8px;
+  margin-right: 5px;
+  background: #f0f0f0;
+  border-radius: 3px;
+  font-size: 14px;
+}

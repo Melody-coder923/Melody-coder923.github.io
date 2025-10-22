@@ -1,0 +1,26 @@
+.social-links {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0077b5;  /* LinkedIn blue */
+}
+
+.social-links a:hover i.fa-github {
+    color: #171515;  /* GitHub dark */
+}
+
+.social-links i {
+    font-size: 24px;
+    margin-right: 8px;
+}

@@ -1,8 +1,9 @@
 # Site settings
 
+title: Melody Zhao' Blog
 # REQUIRED CHANGES
 # Edit next line, providing your own name.
-title: Melody Zhao' Blog
+title: "Melody Zhao Blog"
 # Edit next line, replacing 'techfolios' with your github username
 url: "https://melody-coder923.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
@@ -21,7 +22,33 @@ theme-bio: theme-bio-builtin-2.html
 # Specify the rouge syntax highlighter theme. Pick one from css/rouge.
 rouge-theme: igorpro
 
-# YOU NORMALLY NEVER CHANGE THE FOLLOWING
+# Blog settings
+permalink: /blog/:categories/:title/
+
+# Default settings
 markdown: kramdown
-include: [_data]
+include: [_data, _posts]
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:categories/:title/
+
+defaults:
+  - scope:
+      path: "about.md"
+    values:
+      permalink: /
+      layout: default
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: post
+
+# Post categories
+category_dirs:
+  - deep-learning
+  - agentic-ai
+  - full-stack
 

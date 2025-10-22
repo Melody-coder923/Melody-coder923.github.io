@@ -1,0 +1,19 @@
+/* Custom styles */
+.profile-photo {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.profile-photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.profile-photo img:hover {
+    transform: scale(1.05);
+}
