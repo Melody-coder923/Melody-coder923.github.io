@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="ui container">
+  <header class="ui header">
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <div class="ui divided items">
+    {% for post in site.posts %}
+      <div class="item">
+        <div class="content">
+          <a class="header" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <div class="meta">
+            <span>{{ post.date | date: "%B %d, %Y" }}</span>
+          </div>
+          <div class="description">
+            {{ post.excerpt }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
