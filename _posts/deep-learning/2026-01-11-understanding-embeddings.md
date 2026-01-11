@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The Foundation of Large Language Models: Understanding Embeddings in 5 Minutes"
-date: 2025-01-11
+date: 2026-01-11
 ---
 
 # The Foundation of Large Language Models: Understanding Embeddings in 5 Minutes
