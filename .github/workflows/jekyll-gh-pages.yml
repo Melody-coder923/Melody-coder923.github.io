@@ -1,5 +1,8 @@
 name: Deploy Jekyll site to Pages
 
+env:
+  PAGES_REPO_NWO: Melody-coder923/Melody-coder923.github.io
+
 on:
   push:
     branches: ["main"]
