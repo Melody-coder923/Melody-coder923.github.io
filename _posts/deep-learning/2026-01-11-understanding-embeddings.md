@@ -1,3 +1,9 @@
+---
+layout: default
+title: "The Foundation of Large Language Models: Understanding Embeddings in 5 Minutes"
+date: 2025-01-11
+---
+
 # The Foundation of Large Language Models: Understanding Embeddings in 5 Minutes
 
 I recently revisited Chapter 5 of the NLP "bible"—Jurafsky & Martin's *Speech and Language Processing*. This chapter focuses on **Static Embeddings**, such as Word2vec and GloVe.
@@ -14,7 +20,7 @@ You might ask: Doesn't everyone use BERT and GPT now? Why bother learning "old s
 
 Here's an example from the book: If an unfamiliar word *Ongchoi* frequently appears near "garlic," "delicious," and "sautéed," the AI can infer it's a vegetable (water spinach)—without ever consulting a dictionary.
 
-![Figure 5.1](/images/blog/embeddings-fig5-1.png)
+![Figure 5.1](https://melody-coder923.github.io/images/blog/embeddings-fig5-1.png)
 *Figure 5.1: In this vector space, words with similar meanings automatically cluster together. Notice how "sweet" is surrounded by "honey", "candy", and "chocolate".*
 
 ---
@@ -53,7 +59,7 @@ The core formula:
 cosine(v, w) = (v · w) / (|v| × |w|)
 ```
 
-![Figure 5.5](/images/blog/embeddings-fig5-5.png)
+![Figure 5.5](https://melody-coder923.github.io/images/blog/embeddings-fig5-5.png)
 *Figure 5.5: The angle between "Digital" and "Information" is small, indicating semantic similarity; "Cherry" points in a completely different direction.*
 
 ---
@@ -67,7 +73,7 @@ Skip-gram is essentially a "pretend game": it pretends to predict whether a word
 
 What we want isn't the prediction result, but the trained weights—that's the Embeddings.
 
-![Figure 5.7](/images/blog/embeddings-fig5-7.png)
+![Figure 5.7](https://melody-coder923.github.io/images/blog/embeddings-fig5-7.png)
 *Figure 5.7: The skip-gram model pulls "apricot" and "jam" closer while pushing noise words like "Tolstoy" and "matrix" away.*
 
 > **Pro tip:** Word2vec can't handle words it hasn't seen during training (the OOV problem). FastText solves this by breaking words into n-gram subwords—even new words can be represented by combining subword vectors.
@@ -83,7 +89,7 @@ Embeddings don't just learn language—they also learn human stereotypes:
 
 Worse still, bias gets **amplified** in the model. This is the "Allocational Harm" that AI deployment must guard against.
 
-![Figure 5.9](/images/blog/embeddings-fig5-9.png)
+![Figure 5.9](https://melody-coder923.github.io/images/blog/embeddings-fig5-9.png)
 *Figure 5.9: The parallelogram model showing analogy relationships.*
 
 ---
